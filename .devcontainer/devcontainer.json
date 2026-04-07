@@ -8,7 +8,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "hello.chpl"
+        "README.md"
       ]
     },
     "vscode": {
@@ -17,6 +17,9 @@
       ],
       "settings": {
         "chapel.CHPL_HOME": "/opt/chapel",
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        }
       }
     }
   }
